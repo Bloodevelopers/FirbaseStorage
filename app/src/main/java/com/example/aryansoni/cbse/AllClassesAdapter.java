@@ -34,6 +34,7 @@ public class AllClassesAdapter extends RecyclerView.Adapter<AllClassesAdapter.Re
     public void onBindViewHolder(RecyclerViewHolders recyclerViewHolders, int i) {
         int num = i + 1;
         recyclerViewHolders.countryName.setText("Class " + num);
+        recyclerViewHolders.imgv.setImageResource(R.drawable.tenth);
     }
 
     @Override
@@ -49,7 +50,7 @@ public class AllClassesAdapter extends RecyclerView.Adapter<AllClassesAdapter.Re
         public RecyclerViewHolders(View itemView) {
             super(itemView);
             countryName = itemView.findViewById(R.id.country_name);
-            imgv = itemView.findViewById(R.id.country_photo);
+            imgv = itemView.findViewById(R.id.classno_photo);
             itemView.setOnClickListener(this);
         }
 
