@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.aryansoni.cbse">
+    package="com.example.aryansoni.cbse">
 
     <application
         android:allowBackup="true"
@@ -9,16 +9,16 @@
         android:roundIcon="@drawable/material_drawer_circle_mask"
         android:supportsRtl="true"
         android:theme="@style/MaterialDrawerTheme.TranslucentStatus">
-        <activity android:name=".CrossfadeDrawerLayoutActvitiy">
-        </activity>
-        <activity android:name=".LoginScreen"/>
-
+        <activity android:name=".CrossfadeDrawerLayoutActvitiy"></activity>
+        <activity android:name=".LoginScreen" />
         <activity android:name=".AllClasses">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AfterLogin"></activity>
     </application>
 
 </manifest>
